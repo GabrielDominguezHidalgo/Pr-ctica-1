@@ -1,0 +1,128 @@
+body {
+    background-color: lightgrey;
+    margin:0;
+    height: 100%;
+}
+ /*--------------------------MAIN--------------------------*/
+#content {
+    margin: 0 auto;
+    margin-top: 5%;
+    width:40%;
+    height:auto;
+    overflow: hidden;
+    background-color: #9c9c9c;
+}
+
+#titulo {
+    margin-top: 5%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+#ofertaMes {
+    padding-left: 10%;
+}
+
+#oferta {
+    padding-left:30%;
+}
+ /*--------------------------INDEX--------------------------*/
+
+#tabla {
+    margin-left: 30%;
+    margin-top:50px;
+    border-collapse: collapse;
+    float: left;
+}
+.botones {
+    border: 1px solid black;
+    width: auto;
+    padding: 5px 10px;
+    float:left;
+    box-shadow: 2px 3px #888888;
+    background-color: #BBBBBB;
+    margin:15px;
+}
+
+#botonIndex{
+    margin-left:75%;
+    border: 1px solid black;
+    width: auto;
+    padding: 5px 10px;
+    float:left;
+    box-shadow: 2px 3px #888888;
+    background-color: #BBBBBB;
+}
+a {
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+}
+a:hover {
+    color: blue;
+}
+
+td, th {
+    padding: 10px 20px;
+    text-align:center;
+    border: 1px solid black;
+}
+
+th{
+    font-size: 1.5em;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#contentEdit {
+    margin: 0 auto;
+    margin-left:30%;
+    padding:5px;
+}
+
+ /*--------------------------show--------------------------*/
+
+#tablaShow {
+    margin: 0 auto;
+    margin-top:50px;
+    border-collapse: collapse;
+}
+#bottom {
+    margin: 0 auto;
+    width:35%;
+    padding-left:12%;
+}
+
+/*--------------------------delete--------------------------*/
+#contentDelete {
+    width:50%;
+    margin: 0 auto;
+    margin-top:4%;
+    border:0.5px solid #999999;
+    text-align:center;
+    padding-bottom:15px;
+}
+
+#contentDelete form input {
+    padding:10px;
+}
+
+#bottomDelete {
+    margin-left:43%;
+    margin-top:4%;
+}
+/*--------------------------create--------------------------*/
+
+#contentCreate {
+    width:60%;
+    margin: 0 auto;
+    margin-top:4%;
+}
+
+#bottomCreate {
+    margin-left:40%;
+    margin-top:4%;
+}
